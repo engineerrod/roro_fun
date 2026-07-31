@@ -1,12 +1,7 @@
----
 title: "ME 3300 Experiment-02: Sensor Calibration and Dynamic Measurement of a Pendulum"
 ---
 
 {{< pagebreak >}}
-
-## Learning Objective
-
-### Objectives
 
 Your objectives for this laboratory session are to:
 
@@ -16,7 +11,6 @@ Your objectives for this laboratory session are to:
 - Quantify the quality of your calibration using the norm of residuals, the standard error of fit $s_{yx}$, the standard error of the slope $S_{a_1}$, and a 95% confidence interval
 - Record a dynamic measurement: the free-swing motion of a pendulum
 - **Match a simulation of a dynamic model to measured data**: simulate a simple pendulum model using `scipy.integrate.solve_ivp` and tune its parameters until it approximately reproduces your experiment
-- Learn new Python skills: `for` loops, `enumerate`, f-strings, DataFrame indexing with `.iloc`, interactive plotting with `plotly`, defining functions with `def`, and numerical ODE integration
 
 ### Check Your Understanding
 

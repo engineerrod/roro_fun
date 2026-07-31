@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ME 3300 Experiment-02: Sensor Calibration and Dynamic Measurement of a Pendulum</title>
+<title>lab02</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="lab02_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="lab02_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="lab02_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="lab02_files/libs/bootstrap/bootstrap-215b371544c282197b31c8aa00ce3677.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="lab02_files/libs/bootstrap/bootstrap-917079515d91bccb85b543faf8aa8bb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -114,30 +114,12 @@ window.Quarto = {
 
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">ME 3300 Experiment-02: Sensor Calibration and Dynamic Measurement of a Pendulum</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<section id="title-me-3300-experiment-02-sensor-calibration-and-dynamic-measurement-of-a-pendulum" class="level2">
+<h2 class="anchored" data-anchor-id="title-me-3300-experiment-02-sensor-calibration-and-dynamic-measurement-of-a-pendulum">title: “ME 3300 Experiment-02: Sensor Calibration and Dynamic Measurement of a Pendulum”</h2>
 <div style="page-break-after: always;"></div>
-<section id="learning-objective" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objective">Learning Objective</h2>
-<section id="objectives" class="level3">
-<h3 class="anchored" data-anchor-id="objectives">Objectives</h3>
 <p>Your objectives for this laboratory session are to:</p>
 <ul>
 <li>Become familiar with the WaveForms instrument modules: <strong>Supplies</strong>, <strong>Scope</strong>, and <strong>Logger</strong></li>
@@ -146,9 +128,7 @@ window.Quarto = {
 <li>Quantify the quality of your calibration using the norm of residuals, the standard error of fit <span class="math inline">\(s_{yx}\)</span>, the standard error of the slope <span class="math inline">\(S_{a_1}\)</span>, and a 95% confidence interval</li>
 <li>Record a dynamic measurement: the free-swing motion of a pendulum</li>
 <li><strong>Match a simulation of a dynamic model to measured data</strong>: simulate a simple pendulum model using <code>scipy.integrate.solve_ivp</code> and tune its parameters until it approximately reproduces your experiment</li>
-<li>Learn new Python skills: <code>for</code> loops, <code>enumerate</code>, f-strings, DataFrame indexing with <code>.iloc</code>, interactive plotting with <code>plotly</code>, defining functions with <code>def</code>, and numerical ODE integration</li>
 </ul>
-</section>
 <section id="check-your-understanding" class="level3">
 <h3 class="anchored" data-anchor-id="check-your-understanding">Check Your Understanding</h3>
 <p>By the end of this lab, you should be able to answer all of these questions.</p>
